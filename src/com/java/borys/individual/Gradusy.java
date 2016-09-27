@@ -27,6 +27,7 @@ public class Gradusy {
         return resultCellsiumToFarengeith;
 
     }
+    
     // TODO: 27.09.2016
     // переписать с использованием правильных имён
     // проверить работоспособность метода
