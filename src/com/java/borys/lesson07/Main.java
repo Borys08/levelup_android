@@ -1,21 +1,28 @@
 package com.java.borys.lesson07;
 
 
+import com.java.borys.lesson07.pogo.Box;
+import com.java.borys.lesson07.pogo.Cat;
+
+import static com.java.borys.lesson07.pogo.Cat.getCountOfCats;
+
 public class Main {
-/*
+
 
     private static void main(String[] args) {
         // write your code here
-    */
-/*    Box box = new Box();
+
+        Box box = new Box();
         Box box1 = new Box(5, 8);
         Box box2 = box1;
 
 
-        System.out.println(box2 == box1);
+//        box2.setHeight(3);
 
-    //    box.heigth = 100;
-    //    box.width = 200;
+//        System.out.println(box2 == box1);
+
+        //    box.heigth = 100;
+        //    box.width = 200;
 
         Cat cat = new Cat();
 
@@ -27,22 +34,18 @@ public class Main {
         System.out.println("width: " + box.width + " height: " + box.height);
 
         box.setBoxOpen();
-        box.showInfo();*//*
+        box.showInfo();
 
 
-
-
-        */
-/*Cat cat;
-        for(int i = 0; i < 1000; i++){
-            new Cat ();
+//        Cat cat;
+        for (int i = 0; i < 1000; i++) {
+            new Cat();
         }
 
         Cat cat1 = new Cat();
-        System.out.println(cat1.getCountOfCats());
+        System.out.println(getCountOfCats());
 
-        System.out.println(Cat.TAG);*//*
-
+        System.out.println(Cat.TAG);
 
 
         Object obj = new Cat();
@@ -57,6 +60,7 @@ public class Main {
         printClassName(main);
 
         getCountOfCats();
+    }
 
     private static void printClassName(Object obj) {
 
@@ -75,6 +79,6 @@ public class Main {
             System.out.println("Main");
         }
     }
-*/
+
 
 }

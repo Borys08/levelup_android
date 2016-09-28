@@ -8,16 +8,12 @@ public class Box {
     //private
     //
 
-
-
-    public Box(){
-
+    public Box() {
         width = 7;
         height = 8;
-
     }
 
-    public Box(int width, int height){
+    public Box(int width, int height) {
         this.width = width;
         this.height = height;
     }
@@ -26,6 +22,10 @@ public class Box {
     public final int width;
 
     public final int height;
+//    public int width;
+//
+//    public int height;
+
 
     public Cat cat = null;
 
@@ -35,24 +35,24 @@ public class Box {
         cat.getAge();
     }
 
-
-
-
-
-
-
-
+//    public void setWidth(int width) {
+//        this.width = width;
+//    }
+//
+//    public void setHeight(int height) {
+//        this.height = height;
+//    }
 
     public void setBoxOpen() {
         System.out.println("Box is open");
     }
 
-    private int calculateVolumeBox(){
+    private int calculateVolumeBox() {
         int result = width * width * height;
         return result;
     }
 
-    public void showInfo(){
+    public void showInfo() {
         System.out.println("Volume is: " + calculateVolumeBox());
     }
 }
